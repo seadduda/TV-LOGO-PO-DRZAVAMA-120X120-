@@ -3,71 +3,71 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Slike u folderu muz</title>
+  <title>Mozaik slika - muz</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background: #f6f6f6; }
-    h1 { margin-bottom: 10px; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
-    .card { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 10px; text-align: center; }
-    img { max-width: 120px; max-height: 120px; object-fit: contain; margin-bottom: 8px; }
-    a { color: #0066cc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; color: #222; }
+    h1 { margin-bottom: 8px; }
+    .subtitle { margin-bottom: 16px; color: #555; }
+    .mosaic { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
+    .tile { display: block; aspect-ratio: 1 / 1; overflow: hidden; border: 1px solid #ddd; border-radius: 8px; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+    .tile img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.2s ease; }
+    .tile:hover img { transform: scale(1.04); }
   </style>
 </head>
 <body>
-  <h1>Slike u folderu muz</h1>
-  <p>Ukupno slika: 50</p>
-  <div class="grid">
-    <div class="card"><a href="muz-balkanika.png" target="_blank"><img src="muz-balkanika.png" alt="muz-balkanika.png" /></a><div><a href="muz-balkanika.png" target="_blank">muz-balkanika.png</a></div></div>
-    <div class="card"><a href="muz-balkanika-v2.png" target="_blank"><img src="muz-balkanika-v2.png" alt="muz-balkanika-v2.png" /></a><div><a href="muz-balkanika-v2.png" target="_blank">muz-balkanika-v2.png</a></div></div>
-    <div class="card"><a href="muz-bn-music.png" target="_blank"><img src="muz-bn-music.png" alt="muz-bn-music.png" /></a><div><a href="muz-bn-music.png" target="_blank">muz-bn-music.png</a></div></div>
-    <div class="card"><a href="muz-cmctv.png" target="_blank"><img src="muz-cmctv.png" alt="muz-cmctv.png" /></a><div><a href="muz-cmctv.png" target="_blank">muz-cmctv.png</a></div></div>
-    <div class="card"><a href="muz-dm.png" target="_blank"><img src="muz-dm.png" alt="muz-dm.png" /></a><div><a href="muz-dm.png" target="_blank">muz-dm.png</a></div></div>
-    <div class="card"><a href="muz-dmsat.png" target="_blank"><img src="muz-dmsat.png" alt="muz-dmsat.png" /></a><div><a href="muz-dmsat.png" target="_blank">muz-dmsat.png</a></div></div>
-    <div class="card"><a href="muz-dmsat-v2.png" target="_blank"><img src="muz-dmsat-v2.png" alt="muz-dmsat-v2.png" /></a><div><a href="muz-dmsat-v2.png" target="_blank">muz-dmsat-v2.png</a></div></div>
-    <div class="card"><a href="muz-duga.png" target="_blank"><img src="muz-duga.png" alt="muz-duga.png" /></a><div><a href="muz-duga.png" target="_blank">muz-duga.png</a></div></div>
-    <div class="card"><a href="muz-grand-nostalgija.png" target="_blank"><img src="muz-grand-nostalgija.png" alt="muz-grand-nostalgija.png" /></a><div><a href="muz-grand-nostalgija.png" target="_blank">muz-grand-nostalgija.png</a></div></div>
-    <div class="card"><a href="muz-grandtv1.png" target="_blank"><img src="muz-grandtv1.png" alt="muz-grandtv1.png" /></a><div><a href="muz-grandtv1.png" target="_blank">muz-grandtv1.png</a></div></div>
-    <div class="card"><a href="muz-grandtv2.png" target="_blank"><img src="muz-grandtv2.png" alt="muz-grandtv2.png" /></a><div><a href="muz-grandtv2.png" target="_blank">muz-grandtv2.png</a></div></div>
-    <div class="card"><a href="muz-hayat-folk.png" target="_blank"><img src="muz-hayat-folk.png" alt="muz-hayat-folk.png" /></a><div><a href="muz-hayat-folk.png" target="_blank">muz-hayat-folk.png</a></div></div>
-    <div class="card"><a href="muz-hayatfolkbox.png" target="_blank"><img src="muz-hayatfolkbox.png" alt="muz-hayatfolkbox.png" /></a><div><a href="muz-hayatfolkbox.png" target="_blank">muz-hayatfolkbox.png</a></div></div>
-    <div class="card"><a href="muz-hayat-music.png" target="_blank"><img src="muz-hayat-music.png" alt="muz-hayat-music.png" /></a><div><a href="muz-hayat-music.png" target="_blank">muz-hayat-music.png</a></div></div>
-    <div class="card"><a href="muz-hayatmusicbox.png" target="_blank"><img src="muz-hayatmusicbox.png" alt="muz-hayatmusicbox.png" /></a><div><a href="muz-hayatmusicbox.png" target="_blank">muz-hayatmusicbox.png</a></div></div>
-    <div class="card"><a href="muz-idj.png" target="_blank"><img src="muz-idj.png" alt="muz-idj.png" /></a><div><a href="muz-idj.png" target="_blank">muz-idj.png</a></div></div>
-    <div class="card"><a href="muz-imperia.png" target="_blank"><img src="muz-imperia.png" alt="muz-imperia.png" /></a><div><a href="muz-imperia.png" target="_blank">muz-imperia.png</a></div></div>
-    <div class="card"><a href="muz-izvorna.png" target="_blank"><img src="muz-izvorna.png" alt="muz-izvorna.png" /></a><div><a href="muz-izvorna.png" target="_blank">muz-izvorna.png</a></div></div>
-    <div class="card"><a href="muz-jugoton.png" target="_blank"><img src="muz-jugoton.png" alt="muz-jugoton.png" /></a><div><a href="muz-jugoton.png" target="_blank">muz-jugoton.png</a></div></div>
-    <div class="card"><a href="muz-jugoton-v2.png" target="_blank"><img src="muz-jugoton-v2.png" alt="muz-jugoton-v2.png" /></a><div><a href="muz-jugoton-v2.png" target="_blank">muz-jugoton-v2.png</a></div></div>
-    <div class="card"><a href="muz-kcn2.png" target="_blank"><img src="muz-kcn2.png" alt="muz-kcn2.png" /></a><div><a href="muz-kcn2.png" target="_blank">muz-kcn2.png</a></div></div>
-    <div class="card"><a href="muz-melos.png" target="_blank"><img src="muz-melos.png" alt="muz-melos.png" /></a><div><a href="muz-melos.png" target="_blank">muz-melos.png</a></div></div>
-    <div class="card"><a href="muz-mtv.png" target="_blank"><img src="muz-mtv.png" alt="muz-mtv.png" /></a><div><a href="muz-mtv.png" target="_blank">muz-mtv.png</a></div></div>
-    <div class="card"><a href="muz-mtv-hits.png" target="_blank"><img src="muz-mtv-hits.png" alt="muz-mtv-hits.png" /></a><div><a href="muz-mtv-hits.png" target="_blank">muz-mtv-hits.png</a></div></div>
-    <div class="card"><a href="muz-mtv-hits-v2.png" target="_blank"><img src="muz-mtv-hits-v2.png" alt="muz-mtv-hits-v2.png" /></a><div><a href="muz-mtv-hits-v2.png" target="_blank">muz-mtv-hits-v2.png</a></div></div>
-    <div class="card"><a href="muz-muzika.png" target="_blank"><img src="muz-muzika.png" alt="muz-muzika.png" /></a><div><a href="muz-muzika.png" target="_blank">muz-muzika.png</a></div></div>
-    <div class="card"><a href="muz-muzika-v2.png" target="_blank"><img src="muz-muzika-v2.png" alt="muz-muzika-v2.png" /></a><div><a href="muz-muzika-v2.png" target="_blank">muz-muzika-v2.png</a></div></div>
-    <div class="card"><a href="muz-muzika-v3.png" target="_blank"><img src="muz-muzika-v3.png" alt="muz-muzika-v3.png" /></a><div><a href="muz-muzika-v3.png" target="_blank">muz-muzika-v3.png</a></div></div>
-    <div class="card"><a href="muz-otv-valentino.png" target="_blank"><img src="muz-otv-valentino.png" alt="muz-otv-valentino.png" /></a><div><a href="muz-otv-valentino.png" target="_blank">muz-otv-valentino.png</a></div></div>
-    <div class="card"><a href="muz-otv-valentino-etno.png" target="_blank"><img src="muz-otv-valentino-etno.png" alt="muz-otv-valentino-etno.png" /></a><div><a href="muz-otv-valentino-etno.png" target="_blank">muz-otv-valentino-etno.png</a></div></div>
-    <div class="card"><a href="muz-otv-valentino-music.png" target="_blank"><img src="muz-otv-valentino-music.png" alt="muz-otv-valentino-music.png" /></a><div><a href="muz-otv-valentino-music.png" target="_blank">muz-otv-valentino-music.png</a></div></div>
-    <div class="card"><a href="muz-pink-folk1.png" target="_blank"><img src="muz-pink-folk1.png" alt="muz-pink-folk1.png" /></a><div><a href="muz-pink-folk1.png" target="_blank">muz-pink-folk1.png</a></div></div>
-    <div class="card"><a href="muz-pink-folk2.png" target="_blank"><img src="muz-pink-folk2.png" alt="muz-pink-folk2.png" /></a><div><a href="muz-pink-folk2.png" target="_blank">muz-pink-folk2.png</a></div></div>
-    <div class="card"><a href="muz-pink-hits1.png" target="_blank"><img src="muz-pink-hits1.png" alt="muz-pink-hits1.png" /></a><div><a href="muz-pink-hits1.png" target="_blank">muz-pink-hits1.png</a></div></div>
-    <div class="card"><a href="muz-pink-hits2.png" target="_blank"><img src="muz-pink-hits2.png" alt="muz-pink-hits2.png" /></a><div><a href="muz-pink-hits2.png" target="_blank">muz-pink-hits2.png</a></div></div>
-    <div class="card"><a href="muz-pink-koncert.png" target="_blank"><img src="muz-pink-koncert.png" alt="muz-pink-koncert.png" /></a><div><a href="muz-pink-koncert.png" target="_blank">muz-pink-koncert.png</a></div></div>
-    <div class="card"><a href="muz-pink-music1.png" target="_blank"><img src="muz-pink-music1.png" alt="muz-pink-music1.png" /></a><div><a href="muz-pink-music1.png" target="_blank">muz-pink-music1.png</a></div></div>
-    <div class="card"><a href="muz-pink-music2.png" target="_blank"><img src="muz-pink-music2.png" alt="muz-pink-music2.png" /></a><div><a href="muz-pink-music2.png" target="_blank">muz-pink-music2.png</a></div></div>
-    <div class="card"><a href="muz-pink-roll.png" target="_blank"><img src="muz-pink-roll.png" alt="muz-pink-roll.png" /></a><div><a href="muz-pink-roll.png" target="_blank">muz-pink-roll.png</a></div></div>
-    <div class="card"><a href="muz-romatv.png" target="_blank"><img src="muz-romatv.png" alt="muz-romatv.png" /></a><div><a href="muz-romatv.png" target="_blank">muz-romatv.png</a></div></div>
-    <div class="card"><a href="muz-seharatv.png" target="_blank"><img src="muz-seharatv.png" alt="muz-seharatv.png" /></a><div><a href="muz-seharatv.png" target="_blank">muz-seharatv.png</a></div></div>
-    <div class="card"><a href="muz-sezam.png" target="_blank"><img src="muz-sezam.png" alt="muz-sezam.png" /></a><div><a href="muz-sezam.png" target="_blank">muz-sezam.png</a></div></div>
-    <div class="card"><a href="muz-topsound.png" target="_blank"><img src="muz-topsound.png" alt="muz-topsound.png" /></a><div><a href="muz-topsound.png" target="_blank">muz-topsound.png</a></div></div>
-    <div class="card"><a href="muz-toptv.png" target="_blank"><img src="muz-toptv.png" alt="muz-toptv.png" /></a><div><a href="muz-toptv.png" target="_blank">muz-toptv.png</a></div></div>
-    <div class="card"><a href="muz-vh1.png" target="_blank"><img src="muz-vh1.png" alt="muz-vh1.png" /></a><div><a href="muz-vh1.png" target="_blank">muz-vh1.png</a></div></div>
-    <div class="card"><a href="muz-vh1-v2.png" target="_blank"><img src="muz-vh1-v2.png" alt="muz-vh1-v2.png" /></a><div><a href="muz-vh1-v2.png" target="_blank">muz-vh1-v2.png</a></div></div>
-    <div class="card"><a href="muz-x-toxic.png" target="_blank"><img src="muz-x-toxic.png" alt="muz-x-toxic.png" /></a><div><a href="muz-x-toxic.png" target="_blank">muz-x-toxic.png</a></div></div>
-    <div class="card"><a href="muz-x-toxic-folk.png" target="_blank"><img src="muz-x-toxic-folk.png" alt="muz-x-toxic-folk.png" /></a><div><a href="muz-x-toxic-folk.png" target="_blank">muz-x-toxic-folk.png</a></div></div>
-    <div class="card"><a href="muz-x-toxic-rap.png" target="_blank"><img src="muz-x-toxic-rap.png" alt="muz-x-toxic-rap.png" /></a><div><a href="muz-x-toxic-rap.png" target="_blank">muz-x-toxic-rap.png</a></div></div>
-    <div class="card"><a href="muz-yuplanet.png" target="_blank"><img src="muz-yuplanet.png" alt="muz-yuplanet.png" /></a><div><a href="muz-yuplanet.png" target="_blank">muz-yuplanet.png</a></div></div>
+  <h1>Mozaik slika u folderu muz</h1>
+  <div class="subtitle">Ukupno slika: 50</div>
+  <div class="mosaic">
+    <a class="tile" href="muz-balkanika.png" target="_blank" title="muz-balkanika.png"><img src="muz-balkanika.png" alt="muz-balkanika.png" /></a>
+    <a class="tile" href="muz-balkanika-v2.png" target="_blank" title="muz-balkanika-v2.png"><img src="muz-balkanika-v2.png" alt="muz-balkanika-v2.png" /></a>
+    <a class="tile" href="muz-bn-music.png" target="_blank" title="muz-bn-music.png"><img src="muz-bn-music.png" alt="muz-bn-music.png" /></a>
+    <a class="tile" href="muz-cmctv.png" target="_blank" title="muz-cmctv.png"><img src="muz-cmctv.png" alt="muz-cmctv.png" /></a>
+    <a class="tile" href="muz-dm.png" target="_blank" title="muz-dm.png"><img src="muz-dm.png" alt="muz-dm.png" /></a>
+    <a class="tile" href="muz-dmsat.png" target="_blank" title="muz-dmsat.png"><img src="muz-dmsat.png" alt="muz-dmsat.png" /></a>
+    <a class="tile" href="muz-dmsat-v2.png" target="_blank" title="muz-dmsat-v2.png"><img src="muz-dmsat-v2.png" alt="muz-dmsat-v2.png" /></a>
+    <a class="tile" href="muz-duga.png" target="_blank" title="muz-duga.png"><img src="muz-duga.png" alt="muz-duga.png" /></a>
+    <a class="tile" href="muz-grand-nostalgija.png" target="_blank" title="muz-grand-nostalgija.png"><img src="muz-grand-nostalgija.png" alt="muz-grand-nostalgija.png" /></a>
+    <a class="tile" href="muz-grandtv1.png" target="_blank" title="muz-grandtv1.png"><img src="muz-grandtv1.png" alt="muz-grandtv1.png" /></a>
+    <a class="tile" href="muz-grandtv2.png" target="_blank" title="muz-grandtv2.png"><img src="muz-grandtv2.png" alt="muz-grandtv2.png" /></a>
+    <a class="tile" href="muz-hayat-folk.png" target="_blank" title="muz-hayat-folk.png"><img src="muz-hayat-folk.png" alt="muz-hayat-folk.png" /></a>
+    <a class="tile" href="muz-hayatfolkbox.png" target="_blank" title="muz-hayatfolkbox.png"><img src="muz-hayatfolkbox.png" alt="muz-hayatfolkbox.png" /></a>
+    <a class="tile" href="muz-hayat-music.png" target="_blank" title="muz-hayat-music.png"><img src="muz-hayat-music.png" alt="muz-hayat-music.png" /></a>
+    <a class="tile" href="muz-hayatmusicbox.png" target="_blank" title="muz-hayatmusicbox.png"><img src="muz-hayatmusicbox.png" alt="muz-hayatmusicbox.png" /></a>
+    <a class="tile" href="muz-idj.png" target="_blank" title="muz-idj.png"><img src="muz-idj.png" alt="muz-idj.png" /></a>
+    <a class="tile" href="muz-imperia.png" target="_blank" title="muz-imperia.png"><img src="muz-imperia.png" alt="muz-imperia.png" /></a>
+    <a class="tile" href="muz-izvorna.png" target="_blank" title="muz-izvorna.png"><img src="muz-izvorna.png" alt="muz-izvorna.png" /></a>
+    <a class="tile" href="muz-jugoton.png" target="_blank" title="muz-jugoton.png"><img src="muz-jugoton.png" alt="muz-jugoton.png" /></a>
+    <a class="tile" href="muz-jugoton-v2.png" target="_blank" title="muz-jugoton-v2.png"><img src="muz-jugoton-v2.png" alt="muz-jugoton-v2.png" /></a>
+    <a class="tile" href="muz-kcn2.png" target="_blank" title="muz-kcn2.png"><img src="muz-kcn2.png" alt="muz-kcn2.png" /></a>
+    <a class="tile" href="muz-melos.png" target="_blank" title="muz-melos.png"><img src="muz-melos.png" alt="muz-melos.png" /></a>
+    <a class="tile" href="muz-mtv.png" target="_blank" title="muz-mtv.png"><img src="muz-mtv.png" alt="muz-mtv.png" /></a>
+    <a class="tile" href="muz-mtv-hits.png" target="_blank" title="muz-mtv-hits.png"><img src="muz-mtv-hits.png" alt="muz-mtv-hits.png" /></a>
+    <a class="tile" href="muz-mtv-hits-v2.png" target="_blank" title="muz-mtv-hits-v2.png"><img src="muz-mtv-hits-v2.png" alt="muz-mtv-hits-v2.png" /></a>
+    <a class="tile" href="muz-muzika.png" target="_blank" title="muz-muzika.png"><img src="muz-muzika.png" alt="muz-muzika.png" /></a>
+    <a class="tile" href="muz-muzika-v2.png" target="_blank" title="muz-muzika-v2.png"><img src="muz-muzika-v2.png" alt="muz-muzika-v2.png" /></a>
+    <a class="tile" href="muz-muzika-v3.png" target="_blank" title="muz-muzika-v3.png"><img src="muz-muzika-v3.png" alt="muz-muzika-v3.png" /></a>
+    <a class="tile" href="muz-otv-valentino.png" target="_blank" title="muz-otv-valentino.png"><img src="muz-otv-valentino.png" alt="muz-otv-valentino.png" /></a>
+    <a class="tile" href="muz-otv-valentino-etno.png" target="_blank" title="muz-otv-valentino-etno.png"><img src="muz-otv-valentino-etno.png" alt="muz-otv-valentino-etno.png" /></a>
+    <a class="tile" href="muz-otv-valentino-music.png" target="_blank" title="muz-otv-valentino-music.png"><img src="muz-otv-valentino-music.png" alt="muz-otv-valentino-music.png" /></a>
+    <a class="tile" href="muz-pink-folk1.png" target="_blank" title="muz-pink-folk1.png"><img src="muz-pink-folk1.png" alt="muz-pink-folk1.png" /></a>
+    <a class="tile" href="muz-pink-folk2.png" target="_blank" title="muz-pink-folk2.png"><img src="muz-pink-folk2.png" alt="muz-pink-folk2.png" /></a>
+    <a class="tile" href="muz-pink-hits1.png" target="_blank" title="muz-pink-hits1.png"><img src="muz-pink-hits1.png" alt="muz-pink-hits1.png" /></a>
+    <a class="tile" href="muz-pink-hits2.png" target="_blank" title="muz-pink-hits2.png"><img src="muz-pink-hits2.png" alt="muz-pink-hits2.png" /></a>
+    <a class="tile" href="muz-pink-koncert.png" target="_blank" title="muz-pink-koncert.png"><img src="muz-pink-koncert.png" alt="muz-pink-koncert.png" /></a>
+    <a class="tile" href="muz-pink-music1.png" target="_blank" title="muz-pink-music1.png"><img src="muz-pink-music1.png" alt="muz-pink-music1.png" /></a>
+    <a class="tile" href="muz-pink-music2.png" target="_blank" title="muz-pink-music2.png"><img src="muz-pink-music2.png" alt="muz-pink-music2.png" /></a>
+    <a class="tile" href="muz-pink-roll.png" target="_blank" title="muz-pink-roll.png"><img src="muz-pink-roll.png" alt="muz-pink-roll.png" /></a>
+    <a class="tile" href="muz-romatv.png" target="_blank" title="muz-romatv.png"><img src="muz-romatv.png" alt="muz-romatv.png" /></a>
+    <a class="tile" href="muz-seharatv.png" target="_blank" title="muz-seharatv.png"><img src="muz-seharatv.png" alt="muz-seharatv.png" /></a>
+    <a class="tile" href="muz-sezam.png" target="_blank" title="muz-sezam.png"><img src="muz-sezam.png" alt="muz-sezam.png" /></a>
+    <a class="tile" href="muz-topsound.png" target="_blank" title="muz-topsound.png"><img src="muz-topsound.png" alt="muz-topsound.png" /></a>
+    <a class="tile" href="muz-toptv.png" target="_blank" title="muz-toptv.png"><img src="muz-toptv.png" alt="muz-toptv.png" /></a>
+    <a class="tile" href="muz-vh1.png" target="_blank" title="muz-vh1.png"><img src="muz-vh1.png" alt="muz-vh1.png" /></a>
+    <a class="tile" href="muz-vh1-v2.png" target="_blank" title="muz-vh1-v2.png"><img src="muz-vh1-v2.png" alt="muz-vh1-v2.png" /></a>
+    <a class="tile" href="muz-x-toxic.png" target="_blank" title="muz-x-toxic.png"><img src="muz-x-toxic.png" alt="muz-x-toxic.png" /></a>
+    <a class="tile" href="muz-x-toxic-folk.png" target="_blank" title="muz-x-toxic-folk.png"><img src="muz-x-toxic-folk.png" alt="muz-x-toxic-folk.png" /></a>
+    <a class="tile" href="muz-x-toxic-rap.png" target="_blank" title="muz-x-toxic-rap.png"><img src="muz-x-toxic-rap.png" alt="muz-x-toxic-rap.png" /></a>
+    <a class="tile" href="muz-yuplanet.png" target="_blank" title="muz-yuplanet.png"><img src="muz-yuplanet.png" alt="muz-yuplanet.png" /></a>
   </div>
 </body>
 </html>

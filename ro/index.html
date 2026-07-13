@@ -3,34 +3,34 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Slike u folderu ro</title>
+  <title>Mozaik slika - ro</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background: #f6f6f6; }
-    h1 { margin-bottom: 10px; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
-    .card { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 10px; text-align: center; }
-    img { max-width: 120px; max-height: 120px; object-fit: contain; margin-bottom: 8px; }
-    a { color: #0066cc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; color: #222; }
+    h1 { margin-bottom: 8px; }
+    .subtitle { margin-bottom: 16px; color: #555; }
+    .mosaic { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
+    .tile { display: block; aspect-ratio: 1 / 1; overflow: hidden; border: 1px solid #ddd; border-radius: 8px; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+    .tile img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.2s ease; }
+    .tile:hover img { transform: scale(1.04); }
   </style>
 </head>
 <body>
-  <h1>Slike u folderu ro</h1>
-  <p>Ukupno slika: 13</p>
-  <div class="grid">
-    <div class="card"><a href="ro-antena1.png" target="_blank"><img src="ro-antena1.png" alt="ro-antena1.png" /></a><div><a href="ro-antena1.png" target="_blank">ro-antena1.png</a></div></div>
-    <div class="card"><a href="ro-happy.png" target="_blank"><img src="ro-happy.png" alt="ro-happy.png" /></a><div><a href="ro-happy.png" target="_blank">ro-happy.png</a></div></div>
-    <div class="card"><a href="ro-happy-v2.png" target="_blank"><img src="ro-happy-v2.png" alt="ro-happy-v2.png" /></a><div><a href="ro-happy-v2.png" target="_blank">ro-happy-v2.png</a></div></div>
-    <div class="card"><a href="ro-hbo.png" target="_blank"><img src="ro-hbo.png" alt="ro-hbo.png" /></a><div><a href="ro-hbo.png" target="_blank">ro-hbo.png</a></div></div>
-    <div class="card"><a href="ro-hbo2.png" target="_blank"><img src="ro-hbo2.png" alt="ro-hbo2.png" /></a><div><a href="ro-hbo2.png" target="_blank">ro-hbo2.png</a></div></div>
-    <div class="card"><a href="ro-hbo3.png" target="_blank"><img src="ro-hbo3.png" alt="ro-hbo3.png" /></a><div><a href="ro-hbo3.png" target="_blank">ro-hbo3.png</a></div></div>
-    <div class="card"><a href="ro-music1.png" target="_blank"><img src="ro-music1.png" alt="ro-music1.png" /></a><div><a href="ro-music1.png" target="_blank">ro-music1.png</a></div></div>
-    <div class="card"><a href="ro-primatv.png" target="_blank"><img src="ro-primatv.png" alt="ro-primatv.png" /></a><div><a href="ro-primatv.png" target="_blank">ro-primatv.png</a></div></div>
-    <div class="card"><a href="ro-procinema.png" target="_blank"><img src="ro-procinema.png" alt="ro-procinema.png" /></a><div><a href="ro-procinema.png" target="_blank">ro-procinema.png</a></div></div>
-    <div class="card"><a href="ro-tvr1.png" target="_blank"><img src="ro-tvr1.png" alt="ro-tvr1.png" /></a><div><a href="ro-tvr1.png" target="_blank">ro-tvr1.png</a></div></div>
-    <div class="card"><a href="ro-tvr2.png" target="_blank"><img src="ro-tvr2.png" alt="ro-tvr2.png" /></a><div><a href="ro-tvr2.png" target="_blank">ro-tvr2.png</a></div></div>
-    <div class="card"><a href="ro-tvr3.png" target="_blank"><img src="ro-tvr3.png" alt="ro-tvr3.png" /></a><div><a href="ro-tvr3.png" target="_blank">ro-tvr3.png</a></div></div>
-    <div class="card"><a href="ro-zastava.png" target="_blank"><img src="ro-zastava.png" alt="ro-zastava.png" /></a><div><a href="ro-zastava.png" target="_blank">ro-zastava.png</a></div></div>
+  <h1>Mozaik slika u folderu ro</h1>
+  <div class="subtitle">Ukupno slika: 13</div>
+  <div class="mosaic">
+    <a class="tile" href="ro-antena1.png" target="_blank" title="ro-antena1.png"><img src="ro-antena1.png" alt="ro-antena1.png" /></a>
+    <a class="tile" href="ro-happy.png" target="_blank" title="ro-happy.png"><img src="ro-happy.png" alt="ro-happy.png" /></a>
+    <a class="tile" href="ro-happy-v2.png" target="_blank" title="ro-happy-v2.png"><img src="ro-happy-v2.png" alt="ro-happy-v2.png" /></a>
+    <a class="tile" href="ro-hbo.png" target="_blank" title="ro-hbo.png"><img src="ro-hbo.png" alt="ro-hbo.png" /></a>
+    <a class="tile" href="ro-hbo2.png" target="_blank" title="ro-hbo2.png"><img src="ro-hbo2.png" alt="ro-hbo2.png" /></a>
+    <a class="tile" href="ro-hbo3.png" target="_blank" title="ro-hbo3.png"><img src="ro-hbo3.png" alt="ro-hbo3.png" /></a>
+    <a class="tile" href="ro-music1.png" target="_blank" title="ro-music1.png"><img src="ro-music1.png" alt="ro-music1.png" /></a>
+    <a class="tile" href="ro-primatv.png" target="_blank" title="ro-primatv.png"><img src="ro-primatv.png" alt="ro-primatv.png" /></a>
+    <a class="tile" href="ro-procinema.png" target="_blank" title="ro-procinema.png"><img src="ro-procinema.png" alt="ro-procinema.png" /></a>
+    <a class="tile" href="ro-tvr1.png" target="_blank" title="ro-tvr1.png"><img src="ro-tvr1.png" alt="ro-tvr1.png" /></a>
+    <a class="tile" href="ro-tvr2.png" target="_blank" title="ro-tvr2.png"><img src="ro-tvr2.png" alt="ro-tvr2.png" /></a>
+    <a class="tile" href="ro-tvr3.png" target="_blank" title="ro-tvr3.png"><img src="ro-tvr3.png" alt="ro-tvr3.png" /></a>
+    <a class="tile" href="ro-zastava.png" target="_blank" title="ro-zastava.png"><img src="ro-zastava.png" alt="ro-zastava.png" /></a>
   </div>
 </body>
 </html>

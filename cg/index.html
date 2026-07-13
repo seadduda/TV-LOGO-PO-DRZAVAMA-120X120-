@@ -3,39 +3,39 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Slike u folderu cg</title>
+  <title>Mozaik slika - cg</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background: #f6f6f6; }
-    h1 { margin-bottom: 10px; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
-    .card { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 10px; text-align: center; }
-    img { max-width: 120px; max-height: 120px; object-fit: contain; margin-bottom: 8px; }
-    a { color: #0066cc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; color: #222; }
+    h1 { margin-bottom: 8px; }
+    .subtitle { margin-bottom: 16px; color: #555; }
+    .mosaic { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 10px; }
+    .tile { display: block; aspect-ratio: 1 / 1; overflow: hidden; border: 1px solid #ddd; border-radius: 8px; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+    .tile img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.2s ease; }
+    .tile:hover img { transform: scale(1.04); }
   </style>
 </head>
 <body>
-  <h1>Slike u folderu cg</h1>
-  <p>Ukupno slika: 18</p>
-  <div class="grid">
-    <div class="card"><a href="cg-budva.png" target="_blank"><img src="cg-budva.png" alt="cg-budva.png" /></a><div><a href="cg-budva.png" target="_blank">cg-budva.png</a></div></div>
-    <div class="card"><a href="cg-budva-v2.png" target="_blank"><img src="cg-budva-v2.png" alt="cg-budva-v2.png" /></a><div><a href="cg-budva-v2.png" target="_blank">cg-budva-v2.png</a></div></div>
-    <div class="card"><a href="cg-gradska.png" target="_blank"><img src="cg-gradska.png" alt="cg-gradska.png" /></a><div><a href="cg-gradska.png" target="_blank">cg-gradska.png</a></div></div>
-    <div class="card"><a href="cg-gradska-v2.png" target="_blank"><img src="cg-gradska-v2.png" alt="cg-gradska-v2.png" /></a><div><a href="cg-gradska-v2.png" target="_blank">cg-gradska-v2.png</a></div></div>
-    <div class="card"><a href="cg-hercegnovi.png" target="_blank"><img src="cg-hercegnovi.png" alt="cg-hercegnovi.png" /></a><div><a href="cg-hercegnovi.png" target="_blank">cg-hercegnovi.png</a></div></div>
-    <div class="card"><a href="cg-niksic.png" target="_blank"><img src="cg-niksic.png" alt="cg-niksic.png" /></a><div><a href="cg-niksic.png" target="_blank">cg-niksic.png</a></div></div>
-    <div class="card"><a href="cg-niksic-v2.png" target="_blank"><img src="cg-niksic-v2.png" alt="cg-niksic-v2.png" /></a><div><a href="cg-niksic-v2.png" target="_blank">cg-niksic-v2.png</a></div></div>
-    <div class="card"><a href="cg-nova-m.png" target="_blank"><img src="cg-nova-m.png" alt="cg-nova-m.png" /></a><div><a href="cg-nova-m.png" target="_blank">cg-nova-m.png</a></div></div>
-    <div class="card"><a href="cg-parlamentarna.png" target="_blank"><img src="cg-parlamentarna.png" alt="cg-parlamentarna.png" /></a><div><a href="cg-parlamentarna.png" target="_blank">cg-parlamentarna.png</a></div></div>
-    <div class="card"><a href="cg-pink-m.png" target="_blank"><img src="cg-pink-m.png" alt="cg-pink-m.png" /></a><div><a href="cg-pink-m.png" target="_blank">cg-pink-m.png</a></div></div>
-    <div class="card"><a href="cg-prvatv.png" target="_blank"><img src="cg-prvatv.png" alt="cg-prvatv.png" /></a><div><a href="cg-prvatv.png" target="_blank">cg-prvatv.png</a></div></div>
-    <div class="card"><a href="cg-rozaje.png" target="_blank"><img src="cg-rozaje.png" alt="cg-rozaje.png" /></a><div><a href="cg-rozaje.png" target="_blank">cg-rozaje.png</a></div></div>
-    <div class="card"><a href="cg-rozaje-v2.png" target="_blank"><img src="cg-rozaje-v2.png" alt="cg-rozaje-v2.png" /></a><div><a href="cg-rozaje-v2.png" target="_blank">cg-rozaje-v2.png</a></div></div>
-    <div class="card"><a href="cg-rtcg1.png" target="_blank"><img src="cg-rtcg1.png" alt="cg-rtcg1.png" /></a><div><a href="cg-rtcg1.png" target="_blank">cg-rtcg1.png</a></div></div>
-    <div class="card"><a href="cg-rtcg2.png" target="_blank"><img src="cg-rtcg2.png" alt="cg-rtcg2.png" /></a><div><a href="cg-rtcg2.png" target="_blank">cg-rtcg2.png</a></div></div>
-    <div class="card"><a href="cg-rtcg-sat.png" target="_blank"><img src="cg-rtcg-sat.png" alt="cg-rtcg-sat.png" /></a><div><a href="cg-rtcg-sat.png" target="_blank">cg-rtcg-sat.png</a></div></div>
-    <div class="card"><a href="cg-vijesti.png" target="_blank"><img src="cg-vijesti.png" alt="cg-vijesti.png" /></a><div><a href="cg-vijesti.png" target="_blank">cg-vijesti.png</a></div></div>
-    <div class="card"><a href="cg-zastava.png" target="_blank"><img src="cg-zastava.png" alt="cg-zastava.png" /></a><div><a href="cg-zastava.png" target="_blank">cg-zastava.png</a></div></div>
+  <h1>Mozaik slika u folderu cg</h1>
+  <div class="subtitle">Ukupno slika: 18</div>
+  <div class="mosaic">
+    <a class="tile" href="cg-budva.png" target="_blank" title="cg-budva.png"><img src="cg-budva.png" alt="cg-budva.png" /></a>
+    <a class="tile" href="cg-budva-v2.png" target="_blank" title="cg-budva-v2.png"><img src="cg-budva-v2.png" alt="cg-budva-v2.png" /></a>
+    <a class="tile" href="cg-gradska.png" target="_blank" title="cg-gradska.png"><img src="cg-gradska.png" alt="cg-gradska.png" /></a>
+    <a class="tile" href="cg-gradska-v2.png" target="_blank" title="cg-gradska-v2.png"><img src="cg-gradska-v2.png" alt="cg-gradska-v2.png" /></a>
+    <a class="tile" href="cg-hercegnovi.png" target="_blank" title="cg-hercegnovi.png"><img src="cg-hercegnovi.png" alt="cg-hercegnovi.png" /></a>
+    <a class="tile" href="cg-niksic.png" target="_blank" title="cg-niksic.png"><img src="cg-niksic.png" alt="cg-niksic.png" /></a>
+    <a class="tile" href="cg-niksic-v2.png" target="_blank" title="cg-niksic-v2.png"><img src="cg-niksic-v2.png" alt="cg-niksic-v2.png" /></a>
+    <a class="tile" href="cg-nova-m.png" target="_blank" title="cg-nova-m.png"><img src="cg-nova-m.png" alt="cg-nova-m.png" /></a>
+    <a class="tile" href="cg-parlamentarna.png" target="_blank" title="cg-parlamentarna.png"><img src="cg-parlamentarna.png" alt="cg-parlamentarna.png" /></a>
+    <a class="tile" href="cg-pink-m.png" target="_blank" title="cg-pink-m.png"><img src="cg-pink-m.png" alt="cg-pink-m.png" /></a>
+    <a class="tile" href="cg-prvatv.png" target="_blank" title="cg-prvatv.png"><img src="cg-prvatv.png" alt="cg-prvatv.png" /></a>
+    <a class="tile" href="cg-rozaje.png" target="_blank" title="cg-rozaje.png"><img src="cg-rozaje.png" alt="cg-rozaje.png" /></a>
+    <a class="tile" href="cg-rozaje-v2.png" target="_blank" title="cg-rozaje-v2.png"><img src="cg-rozaje-v2.png" alt="cg-rozaje-v2.png" /></a>
+    <a class="tile" href="cg-rtcg1.png" target="_blank" title="cg-rtcg1.png"><img src="cg-rtcg1.png" alt="cg-rtcg1.png" /></a>
+    <a class="tile" href="cg-rtcg2.png" target="_blank" title="cg-rtcg2.png"><img src="cg-rtcg2.png" alt="cg-rtcg2.png" /></a>
+    <a class="tile" href="cg-rtcg-sat.png" target="_blank" title="cg-rtcg-sat.png"><img src="cg-rtcg-sat.png" alt="cg-rtcg-sat.png" /></a>
+    <a class="tile" href="cg-vijesti.png" target="_blank" title="cg-vijesti.png"><img src="cg-vijesti.png" alt="cg-vijesti.png" /></a>
+    <a class="tile" href="cg-zastava.png" target="_blank" title="cg-zastava.png"><img src="cg-zastava.png" alt="cg-zastava.png" /></a>
   </div>
 </body>
 </html>
